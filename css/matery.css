@@ -268,11 +268,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #000000 0%, #210101 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #56b119 !important;
 }
 
 .white-color {
@@ -2169,3 +2169,8 @@ footer .copy-right {
     padding: 0px;
     margin: 0px;
 }
+
+body {
+    font-family: "Times New Roman","KaiTi", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+  }
