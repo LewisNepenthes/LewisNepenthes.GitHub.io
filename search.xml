@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>导出issue</title>
+      <link href="2020/10/30/dao-chu-issue/"/>
+      <url>2020/10/30/dao-chu-issue/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Why-to-Use？"><a href="#Why-to-Use？" class="headerlink" title="Why to Use？"></a>Why to Use？</h3><p>个人把GitHub里的issue当做是一个提问式的记录，用于记录平时各类的小想法，以及在下面comment作一个更新式的记录，形式感和写Blog差不多。而且如果发挥的好的话，还会把他跟朋友进行一个交流，然后让他们也进行这样的一个交流式写作。所以如果能够把这个工具用好来的话，那么可以极大的促进我跟朋友之间的感情，以及可以让我的思想在不同的领域有个更好的发挥。所以我认为在这一段时间内，如果我能够在GitHub上面创建很多的issue，那么就可以有一个比较大的提升，因此呢，我想把它用好来。</p><h3 id="How-to-Use"><a href="#How-to-Use" class="headerlink" title="How to Use?"></a>How to Use?</h3><h4 id="Gissue"><a href="#Gissue" class="headerlink" title="Gissue"></a>Gissue</h4><p><a href="https://gissue.github.io/">Gissue-Download GitHub issues.</a></p><p>只要输入一个自己repo的url就可以生成一个zip包导出issue，但是只能导出open状态下的issue，并且导出的comment只有创建issue时的comment，后续追加的comment都无法导出。这也是致命的缺点，无法进行多次论述。</p><h4 id="export-pull-requests"><a href="#export-pull-requests" class="headerlink" title="export-pull-requests"></a>export-pull-requests</h4><p><a href="https://www.jianshu.com/p/5180f364be18">把github的issue导出为csv - 简书</a></p><p>利用脚本导出issue的相关编辑信息，和上一条一样，能导出，但是导出的信息不全，尤其是我所想要的多次comments的效果，无法导出追加的新信息。</p><img src="http://lewisnepenthes.xuexihaike.com/1027495-562e23ad85716d28.png" alt="只有标题和链接" style="zoom: 80%;" /><h4 id="Python3"><a href="#Python3" class="headerlink" title="Python3"></a>Python3</h4><p><a href="https://blog.csdn.net/github_25176023/article/details/105725979">Python3 将 Github issue 导出到 markdown_昵称就这样行吧的博客-CSDN博客</a></p><p>效果也基本是我想要的，作者将其作为blog的写作形式。可是我在python3打了那一串代码错误，自己也找不到issue_to_markdown.py文件去修改相关的配置，相当于只要找到那个文件，输入相关信息，就可以download了。</p><img src="http://lewisnepenthes.xuexihaike.com/20200424111851475.png" alt="时间+issue title" style="zoom:80%;" /><h4 id="offline-issues"><a href="#offline-issues" class="headerlink" title="offline-issues"></a>offline-issues</h4><p><a href="https://github.com/jlord/offline-issues">jlord/offline-issues: Get your GitHub Issues to read offline later. Mmm.</a></p><p>在npm安装offline-issues，然后clone repo到本地，再进行issue的导出，可以有md，也可以有html。安装成功了，按命令打了fantastic-doodle进去也能运行，就是不知道文件到哪里去了，迷茫。</p><h4 id="gh2md"><a href="#gh2md" class="headerlink" title="gh2md"></a>gh2md</h4><p><a href="https://github.com/mattduck/gh2md">mattduck/gh2md: Export Github repository issues and pull requests to a single, readable markdown file</a></p><p><a href="https://github.com/0ut0fcontrol/jimmylv.github.io/commit/76a967c741a2fa6fa1080c3b631228efe1205974">test gh2md with python3 · 0ut0fcontrol/jimmylv.github.io@76a967c</a></p><p>可以将一个repo里所以的issue放到一个md文件里，上面的都是一个issue一个md。另外这个脚本可以导出closed的issue，上面的行不行我不知道。</p><p>这个也算是安装了gh2md吧，但还是不知道怎么进行导出，连输入信息的位置都找不到。敲代码真TM难。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Inbox </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>How to Use Footnotes between Obsidian and Typora</title>
+      <link href="2020/10/13/how-to-use-footnotes-between-obsidian-and-typora/"/>
+      <url>2020/10/13/how-to-use-footnotes-between-obsidian-and-typora/</url>
+      
+        <content type="html"><![CDATA[<h3 id="How-to-Use-Footnotes-between-Obsidian-amp-Typora"><a href="#How-to-Use-Footnotes-between-Obsidian-amp-Typora" class="headerlink" title="How to Use Footnotes between Obsidian &amp; Typora"></a>How to Use Footnotes between Obsidian &amp; Typora</h3><p>在Typora 的脚注上面折腾了很久，如果是Obsidian里的脚注^[这里面直接书写内容即可，他也会自动编号，非常方便，但是对于导出PDF而言，没办法]。那么如果使用Typora的话，就要这样[^我是脚注]，相当于编号要自己做，并且内容也要另外编辑。另外，如果是Obsidian里的脚注，前面不需要任何内容。</p><p>^[Obsidian里的脚注]。</p><p>但是如果是Typora的，前面无内容，就无法插入脚注。</p><p>现在有了[^我前面没有内容]。</p><p>所以结论就是，不使用Obsidian里的脚注标记^[不用Obsidian脚注]；而是使用Typora的[^标题]，而后再点击编辑内容。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Inbox </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> coding </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何导出GitHub里的Issue</title>
+      <link href="2020/10/13/ru-he-dao-chu-github-li-de-issue/"/>
+      <url>2020/10/13/ru-he-dao-chu-github-li-de-issue/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Why-to-Use？"><a href="#Why-to-Use？" class="headerlink" title="Why to Use？"></a>Why to Use？</h3><p>个人把GitHub里的issue当做是一个提问式的记录，用于记录平时各类的小想法，以及在下面comment作一个更新式的记录，形式感和写Blog差不多。而且如果发挥的好的话，还会把他跟朋友进行一个交流，然后让他们也进行这样的一个交流式写作。所以如果能够把这个工具用好来的话，那么可以极大的促进我跟朋友之间的感情，以及可以让我的思想在不同的领域有个更好的发挥。所以我认为在这一段时间内，如果我能够在GitHub上面创建很多的issue，那么就可以有一个比较大的提升，因此呢，我想把它用好来。</p><h3 id="How-to-Use"><a href="#How-to-Use" class="headerlink" title="How to Use?"></a>How to Use?</h3><h4 id="Gissue"><a href="#Gissue" class="headerlink" title="Gissue"></a>Gissue</h4><p><a href="https://gissue.github.io/">Gissue-Download GitHub issues.</a></p><p>只要输入一个自己repo的url就可以生成一个zip包导出issue，但是只能导出open状态下的issue，并且导出的comment只有创建issue时的comment，后续追加的comment都无法导出。这也是致命的缺点，无法进行多次论述。</p><h4 id="export-pull-requests"><a href="#export-pull-requests" class="headerlink" title="export-pull-requests"></a>export-pull-requests</h4><p><a href="https://www.jianshu.com/p/5180f364be18">把github的issue导出为csv - 简书</a></p><p>利用脚本导出issue的相关编辑信息，和上一条一样，能导出，但是导出的信息不全，尤其是我所想要的多次comments的效果，无法导出追加的新信息。</p><img src="http://lewisnepenthes.xuexihaike.com/1027495-562e23ad85716d28.png" alt="只有标题和链接" style="zoom: 80%;" /><h4 id="Python3"><a href="#Python3" class="headerlink" title="Python3"></a>Python3</h4><p><a href="https://blog.csdn.net/github_25176023/article/details/105725979">Python3 将 Github issue 导出到 markdown_昵称就这样行吧的博客-CSDN博客</a></p><p>效果也基本是我想要的，作者将其作为blog的写作形式。可是我在python3打了那一串代码错误，自己也找不到issue_to_markdown.py文件去修改相关的配置，相当于只要找到那个文件，输入相关信息，就可以download了。</p><img src="http://lewisnepenthes.xuexihaike.com/20200424111851475.png" alt="时间+issue title" style="zoom:80%;" /><h4 id="offline-issues"><a href="#offline-issues" class="headerlink" title="offline-issues"></a>offline-issues</h4><p><a href="https://github.com/jlord/offline-issues">jlord/offline-issues: Get your GitHub Issues to read offline later. Mmm.</a></p><p>在npm安装offline-issues，然后clone repo到本地，再进行issue的导出，可以有md，也可以有html。安装成功了，按命令打了fantastic-doodle进去也能运行，就是不知道文件到哪里去了，迷茫。</p><h4 id="gh2md"><a href="#gh2md" class="headerlink" title="gh2md"></a>gh2md</h4><p><a href="https://github.com/mattduck/gh2md">mattduck/gh2md: Export Github repository issues and pull requests to a single, readable markdown file</a></p><p><a href="https://github.com/0ut0fcontrol/jimmylv.github.io/commit/76a967c741a2fa6fa1080c3b631228efe1205974">test gh2md with python3 · 0ut0fcontrol/jimmylv.github.io@76a967c</a></p><p>可以将一个repo里所以的issue放到一个md文件里，上面的都是一个issue一个md。另外这个脚本可以导出closed的issue，上面的行不行我不知道。</p><p>这个也算是安装了gh2md吧，但还是不知道怎么进行导出，连输入信息的位置都找不到。敲代码真TM难。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Inbox </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> coding </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>还是很想把hexo的博客用起来</title>
       <link href="2020/10/13/huan-shi-hen-xiang-ba-hexo-de-bo-ke-yong-qi-lai/"/>
       <url>2020/10/13/huan-shi-hen-xiang-ba-hexo-de-bo-ke-yong-qi-lai/</url>
@@ -23,19 +98,6 @@
             <tag> Typora </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>How to Use Footnotes between Obsidian &amp; Typora</title>
-      <link href="2020/10/13/how-to-use-footnotes-between-obsidian-typora/"/>
-      <url>2020/10/13/how-to-use-footnotes-between-obsidian-typora/</url>
-      
-        <content type="html"><![CDATA[<h3 id="How-to-Use-Footnotes-between-Obsidian-amp-Typora"><a href="#How-to-Use-Footnotes-between-Obsidian-amp-Typora" class="headerlink" title="How to Use Footnotes between Obsidian &amp; Typora"></a>How to Use Footnotes between Obsidian &amp; Typora</h3><p>在Typora 的脚注上面折腾了很久，如果是Obsidian里的脚注^[这里面直接书写内容即可，他也会自动编号，非常方便，但是对于导出PDF而言，没办法]。那么如果使用Typora的话，就要这样[^我是脚注]，相当于编号要自己做，并且内容也要另外编辑。另外，如果是Obsidian里的脚注，前面不需要任何内容。</p><p>^[Obsidian里的脚注]。</p><p>但是如果是Typora的，前面无内容，就无法插入脚注。</p><p>现在有了[^我前面没有内容]。</p><p>所以结论就是，不使用Obsidian里的脚注标记^[不用Obsidian脚注]；而是使用Typora的[^标题]，而后再点击编辑内容。</p>]]></content>
-      
-      
       
     </entry>
     
