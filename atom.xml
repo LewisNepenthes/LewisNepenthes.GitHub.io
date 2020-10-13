@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  <subtitle>Go and Hit</subtitle>
+  <link href="https://lewisnepenthes.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://lewisnepenthes.github.io/"/>
+  <updated>2020-10-13T09:37:49.624Z</updated>
+  <id>https://lewisnepenthes.github.io/</id>
+  
+  <author>
+    <name>LewisNepenthes</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>导出issue</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/30/dao-chu-issue/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/30/dao-chu-issue/</id>
+    <published>2020-10-30T09:29:45.000Z</published>
+    <updated>2020-10-13T09:37:49.624Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Why-to-Use？&quot;&gt;&lt;a href=&quot;#Why-to-Use？&quot; class=&quot;headerlink&quot; title=&quot;Why to Use？&quot;&gt;&lt;/a&gt;Why to</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+    <category term="code" scheme="https://lewisnepenthes.github.io/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YAML test</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/13/yaml-test/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/13/yaml-test/</id>
+    <published>2020-10-13T13:19:03.000Z</published>
+    <updated>2020-10-13T13:28:05.290Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;测试YAML&quot;&gt;&lt;a href=&quot;#测试YAML&quot; class=&quot;headerlink&quot; title=&quot;测试YAML&quot;&gt;&lt;/a&gt;测试YAML&lt;/h1&gt;&lt;h2 id=&quot;22&quot;&gt;&lt;a href=&quot;#22&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+    <category term="coding" scheme="https://lewisnepenthes.github.io/tags/coding/"/>
+    
+    <category term="test" scheme="https://lewisnepenthes.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Youtube iframe test</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/13/youtube-iframe-test/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/13/youtube-iframe-test/</id>
+    <published>2020-10-13T12:25:24.000Z</published>
+    <updated>2020-10-13T12:26:17.263Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Lucky-Boy&quot;&gt;&lt;a href=&quot;#Lucky-Boy&quot; class=&quot;headerlink&quot; title=&quot;Lucky Boy&quot;&gt;&lt;/a&gt;Lucky</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+    <category term="Test" scheme="https://lewisnepenthes.github.io/tags/Test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to Use Footnotes between Obsidian and Typora</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/13/how-to-use-footnotes-between-obsidian-and-typora/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/13/how-to-use-footnotes-between-obsidian-and-typora/</id>
+    <published>2020-10-13T09:40:07.000Z</published>
+    <updated>2020-10-13T09:40:45.244Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;How-to-Use-Footnotes-between-Obsidian-amp-Typora&quot;&gt;&lt;a href=&quot;#How-to-Use-Footnotes-between-Obsidian-amp-Typora&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+    <category term="coding" scheme="https://lewisnepenthes.github.io/tags/coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何导出GitHub里的Issue</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/13/ru-he-dao-chu-github-li-de-issue/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/13/ru-he-dao-chu-github-li-de-issue/</id>
+    <published>2020-10-13T09:29:45.000Z</published>
+    <updated>2020-10-13T09:33:09.025Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Why-to-Use？&quot;&gt;&lt;a href=&quot;#Why-to-Use？&quot; class=&quot;headerlink&quot; title=&quot;Why to Use？&quot;&gt;&lt;/a&gt;Why to</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+    <category term="coding" scheme="https://lewisnepenthes.github.io/tags/coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>还是很想把hexo的博客用起来</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/13/huan-shi-hen-xiang-ba-hexo-de-bo-ke-yong-qi-lai/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/13/huan-shi-hen-xiang-ba-hexo-de-bo-ke-yong-qi-lai/</id>
+    <published>2020-10-13T02:02:58.000Z</published>
+    <updated>2020-10-13T02:07:21.457Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;苦恼&quot;&gt;&lt;a href=&quot;#苦恼&quot; class=&quot;headerlink&quot; title=&quot;苦恼&quot;&gt;&lt;/a&gt;苦恼&lt;/h3&gt;&lt;p&gt;这边写作完了以后，没有办法在那边进行展示。&lt;/p&gt;
+&lt;h3 id=&quot;标签&quot;&gt;&lt;a href=&quot;#标签&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+    <category term="Typora" scheme="https://lewisnepenthes.github.io/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用强力研读书_万维钢</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/12/yong-qiang-li-yan-du-shu-wan-wei-gang/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/12/yong-qiang-li-yan-du-shu-wan-wei-gang/</id>
+    <published>2020-10-11T16:42:51.000Z</published>
+    <updated>2020-10-13T02:09:51.587Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文选自万维钢的《万万没想到——用理工科思维理解世界》。&lt;/p&gt;
+&lt;img src=&quot;https://lewis-img.oss-cn-beijing.aliyuncs.com/img/万万没想到——用理工科思维理解世界.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="People" scheme="https://lewisnepenthes.github.io/categories/People/"/>
+    
+    
+    <category term="Reading" scheme="https://lewisnepenthes.github.io/tags/Reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>why not appear?</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/09/why-not-appear/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/09/why-not-appear/</id>
+    <published>2020-10-09T13:05:40.000Z</published>
+    <updated>2020-10-09T13:06:07.658Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;怎么就不出现？&lt;/p&gt;
+&lt;h3 id=&quot;Lucky-Boy&quot;&gt;&lt;a href=&quot;#Lucky-Boy&quot; class=&quot;headerlink&quot; title=&quot;Lucky Boy&quot;&gt;&lt;/a&gt;Lucky</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test img</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/07/test-img/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/07/test-img/</id>
+    <published>2020-10-07T03:42:34.000Z</published>
+    <updated>2020-10-07T14:08:20.098Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;测试一下图片大小能不能用img的格式随意调整大小。&lt;/p&gt;
+&lt;p&gt;![Laptop Computer Free Photo](&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Prepare Test</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/07/prepare-test/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/07/prepare-test/</id>
+    <published>2020-10-07T02:52:13.000Z</published>
+    <updated>2020-10-13T02:09:05.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;这边是希望进行一个操作&quot;&gt;&lt;a href=&quot;#这边是希望进行一个操作&quot; class=&quot;headerlink&quot; title=&quot;这边是希望进行一个操作&quot;&gt;&lt;/a&gt;这边是希望进行一个操作&lt;/h2&gt;&lt;p&gt;这样的可能还是会有一些暗淡。&lt;/p&gt;
+&lt;p&gt;2020-10-07</summary>
+        
+      
+    
+    
+    
+    <category term="test" scheme="https://lewisnepenthes.github.io/categories/test/"/>
+    
+    
+    <category term="Typora" scheme="https://lewisnepenthes.github.io/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/06/hello-world/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/06/hello-world/</id>
+    <published>2020-10-06T13:08:43.000Z</published>
+    <updated>2020-10-13T12:22:46.756Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    
+    
+  </entry>
+  
+</feed>
