@@ -6,7 +6,7 @@
   <link href="https://lewisnepenthes.github.io/atom.xml" rel="self"/>
   
   <link href="https://lewisnepenthes.github.io/"/>
-  <updated>2020-10-13T09:37:49.624Z</updated>
+  <updated>2020-10-14T06:59:20.097Z</updated>
   <id>https://lewisnepenthes.github.io/</id>
   
   <author>
@@ -17,18 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>导出issue</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/30/dao-chu-issue/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/30/dao-chu-issue/</id>
-    <published>2020-10-30T09:29:45.000Z</published>
-    <updated>2020-10-13T09:37:49.624Z</updated>
+    <title>wanna write a new post</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/14/wanna-write-a-new-post/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/14/wanna-write-a-new-post/</id>
+    <published>2020-10-14T06:58:35.000Z</published>
+    <updated>2020-10-14T06:59:20.097Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Why-to-Use？&quot;&gt;&lt;a href=&quot;#Why-to-Use？&quot; class=&quot;headerlink&quot; title=&quot;Why to Use？&quot;&gt;&lt;/a&gt;Why to</summary>
+    <summary type="html">&lt;p&gt;直接在外面进行一个BASH，就可以在里面方便地进行一个书写，非常舒服地体验。&lt;/p&gt;
+</summary>
         
       
     
@@ -37,30 +38,62 @@
     <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
     
     
-    <category term="code" scheme="https://lewisnepenthes.github.io/tags/code/"/>
+    <category term="test" scheme="https://lewisnepenthes.github.io/tags/test/"/>
     
   </entry>
   
   <entry>
-    <title>更新node后影响hexo吗</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/14/geng-xin-node-hou-ying-xiang-hexo-ma/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/14/geng-xin-node-hou-ying-xiang-hexo-ma/</id>
-    <published>2020-10-13T17:35:23.000Z</published>
-    <updated>2020-10-13T17:35:56.762Z</updated>
+    <title>为了Obsidian2Anki通了个宵</title>
+    <link href="https://lewisnepenthes.github.io/2020/10/14/wei-liao-obsidian2anki-tong-liao-ge-xiao/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/14/wei-liao-obsidian2anki-tong-liao-ge-xiao/</id>
+    <published>2020-10-14T05:46:43.101Z</published>
+    <updated>2020-10-14T07:32:59.203Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;还好没影响，不然我要炸裂了！&lt;/p&gt;
-&lt;p&gt;2020-10-14</summary>
+    <summary type="html">&lt;h1 id=&quot;为了Obsidian2Anki通了个宵&quot;&gt;&lt;a href=&quot;#为了Obsidian2Anki通了个宵&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    <category term="Archived" scheme="https://lewisnepenthes.github.io/categories/Archived/"/>
+    
+    
+    <category term="Usage" scheme="https://lewisnepenthes.github.io/tags/Usage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://lewisnepenthes.github.io/2020/10/14/obsidian/"/>
+    <id>https://lewisnepenthes.github.io/2020/10/14/obsidian/</id>
+    <published>2020-10-14T05:43:13.706Z</published>
+    <updated>2020-10-14T06:15:10.491Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">/*
+---
+title: obsidian
+date: 2020-10-14_13-58-01
+author: LewisNepenthes
+img: 
+top: false
+cover: false
+toc: true
+mathjax: false
+summary:</summary>
+        
+      
+    
+    
     
     
   </entry>
@@ -70,7 +103,7 @@
     <link href="https://lewisnepenthes.github.io/2020/10/13/you-hua-liao-yi-wan-shang-zheng-hexo-de-pai-ban/"/>
     <id>https://lewisnepenthes.github.io/2020/10/13/you-hua-liao-yi-wan-shang-zheng-hexo-de-pai-ban/</id>
     <published>2020-10-13T13:54:37.000Z</published>
-    <updated>2020-10-13T13:57:02.602Z</updated>
+    <updated>2020-10-14T06:56:00.020Z</updated>
     
     
       
@@ -86,57 +119,7 @@
     <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>YAML test</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/13/yaml-test/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/13/yaml-test/</id>
-    <published>2020-10-13T13:19:03.000Z</published>
-    <updated>2020-10-13T13:28:05.290Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;测试YAML&quot;&gt;&lt;a href=&quot;#测试YAML&quot; class=&quot;headerlink&quot; title=&quot;测试YAML&quot;&gt;&lt;/a&gt;测试YAML&lt;/h1&gt;&lt;h2 id=&quot;22&quot;&gt;&lt;a href=&quot;#22&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
-    
-    
-    <category term="coding" scheme="https://lewisnepenthes.github.io/tags/coding/"/>
-    
-    <category term="test" scheme="https://lewisnepenthes.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Youtube iframe test</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/13/youtube-iframe-test/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/13/youtube-iframe-test/</id>
-    <published>2020-10-13T12:25:24.000Z</published>
-    <updated>2020-10-13T12:26:17.263Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Lucky-Boy&quot;&gt;&lt;a href=&quot;#Lucky-Boy&quot; class=&quot;headerlink&quot; title=&quot;Lucky Boy&quot;&gt;&lt;/a&gt;Lucky</summary>
-        
-      
-    
-    
-    
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
-    
-    
-    <category term="Test" scheme="https://lewisnepenthes.github.io/tags/Test/"/>
+    <category term="Talk" scheme="https://lewisnepenthes.github.io/tags/Talk/"/>
     
   </entry>
   
@@ -145,7 +128,7 @@
     <link href="https://lewisnepenthes.github.io/2020/10/13/how-to-use-footnotes-between-obsidian-and-typora/"/>
     <id>https://lewisnepenthes.github.io/2020/10/13/how-to-use-footnotes-between-obsidian-and-typora/</id>
     <published>2020-10-13T09:40:07.000Z</published>
-    <updated>2020-10-13T09:40:45.244Z</updated>
+    <updated>2020-10-14T06:57:26.127Z</updated>
     
     
       
@@ -158,10 +141,10 @@
     
     
     
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    <category term="Archived" scheme="https://lewisnepenthes.github.io/categories/Archived/"/>
     
     
-    <category term="coding" scheme="https://lewisnepenthes.github.io/tags/coding/"/>
+    <category term="Usage" scheme="https://lewisnepenthes.github.io/tags/Usage/"/>
     
   </entry>
   
@@ -170,7 +153,7 @@
     <link href="https://lewisnepenthes.github.io/2020/10/13/ru-he-dao-chu-github-li-de-issue/"/>
     <id>https://lewisnepenthes.github.io/2020/10/13/ru-he-dao-chu-github-li-de-issue/</id>
     <published>2020-10-13T09:29:45.000Z</published>
-    <updated>2020-10-13T09:33:09.025Z</updated>
+    <updated>2020-10-14T06:54:22.728Z</updated>
     
     
       
@@ -186,33 +169,7 @@
     <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
     
     
-    <category term="coding" scheme="https://lewisnepenthes.github.io/tags/coding/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>还是很想把hexo的博客用起来</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/13/huan-shi-hen-xiang-ba-hexo-de-bo-ke-yong-qi-lai/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/13/huan-shi-hen-xiang-ba-hexo-de-bo-ke-yong-qi-lai/</id>
-    <published>2020-10-13T02:02:58.000Z</published>
-    <updated>2020-10-13T02:07:21.457Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;苦恼&quot;&gt;&lt;a href=&quot;#苦恼&quot; class=&quot;headerlink&quot; title=&quot;苦恼&quot;&gt;&lt;/a&gt;苦恼&lt;/h3&gt;&lt;p&gt;这边写作完了以后，没有办法在那边进行展示。&lt;/p&gt;
-&lt;h3 id=&quot;标签&quot;&gt;&lt;a href=&quot;#标签&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
-    
-    
-    <category term="Typora" scheme="https://lewisnepenthes.github.io/tags/Typora/"/>
+    <category term="Ordering" scheme="https://lewisnepenthes.github.io/tags/Ordering/"/>
     
   </entry>
   
@@ -221,7 +178,7 @@
     <link href="https://lewisnepenthes.github.io/2020/10/12/yong-qiang-li-yan-du-shu-wan-wei-gang/"/>
     <id>https://lewisnepenthes.github.io/2020/10/12/yong-qiang-li-yan-du-shu-wan-wei-gang/</id>
     <published>2020-10-11T16:42:51.000Z</published>
-    <updated>2020-10-13T02:09:51.587Z</updated>
+    <updated>2020-10-14T07:37:07.891Z</updated>
     
     
       
@@ -236,82 +193,10 @@
     
     
     
-    <category term="People" scheme="https://lewisnepenthes.github.io/categories/People/"/>
+    <category term="Tools" scheme="https://lewisnepenthes.github.io/categories/Tools/"/>
     
     
-    <category term="Reading" scheme="https://lewisnepenthes.github.io/tags/Reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>why not appear?</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/09/why-not-appear/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/09/why-not-appear/</id>
-    <published>2020-10-09T13:05:40.000Z</published>
-    <updated>2020-10-13T13:50:14.227Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;怎么就不出现？&lt;/p&gt;
-&lt;h3 id=&quot;Lucky-Boy&quot;&gt;&lt;a href=&quot;#Lucky-Boy&quot; class=&quot;headerlink&quot; title=&quot;Lucky Boy&quot;&gt;&lt;/a&gt;Lucky</summary>
-        
-      
-    
-    
-    
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test img</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/07/test-img/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/07/test-img/</id>
-    <published>2020-10-07T03:42:34.000Z</published>
-    <updated>2020-10-07T14:08:20.098Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;测试一下图片大小能不能用img的格式随意调整大小。&lt;/p&gt;
-&lt;p&gt;![Laptop Computer Free Photo](&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Prepare Test</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/07/prepare-test/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/07/prepare-test/</id>
-    <published>2020-10-07T02:52:13.000Z</published>
-    <updated>2020-10-13T02:09:05.741Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;这边是希望进行一个操作&quot;&gt;&lt;a href=&quot;#这边是希望进行一个操作&quot; class=&quot;headerlink&quot; title=&quot;这边是希望进行一个操作&quot;&gt;&lt;/a&gt;这边是希望进行一个操作&lt;/h2&gt;&lt;p&gt;这样的可能还是会有一些暗淡。&lt;/p&gt;
-&lt;p&gt;2020-10-07</summary>
-        
-      
-    
-    
-    
-    <category term="test" scheme="https://lewisnepenthes.github.io/categories/test/"/>
-    
-    
-    <category term="Typora" scheme="https://lewisnepenthes.github.io/tags/Typora/"/>
+    <category term="People" scheme="https://lewisnepenthes.github.io/tags/People/"/>
     
   </entry>
   
@@ -320,7 +205,7 @@
     <link href="https://lewisnepenthes.github.io/2020/10/06/hello-world/"/>
     <id>https://lewisnepenthes.github.io/2020/10/06/hello-world/</id>
     <published>2020-10-06T13:08:43.000Z</published>
-    <updated>2020-10-13T12:22:46.756Z</updated>
+    <updated>2020-10-14T06:44:11.250Z</updated>
     
     
       
@@ -333,7 +218,7 @@
     
     
     
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
+    <category term="Archived" scheme="https://lewisnepenthes.github.io/categories/Archived/"/>
     
     
   </entry>
