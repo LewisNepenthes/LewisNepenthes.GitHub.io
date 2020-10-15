@@ -6,7 +6,7 @@
   <link href="https://lewisnepenthes.github.io/atom.xml" rel="self"/>
   
   <link href="https://lewisnepenthes.github.io/"/>
-  <updated>2020-10-14T06:59:20.097Z</updated>
+  <updated>2020-10-14T07:32:59.203Z</updated>
   <id>https://lewisnepenthes.github.io/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>wanna write a new post</title>
-    <link href="https://lewisnepenthes.github.io/2020/10/14/wanna-write-a-new-post/"/>
-    <id>https://lewisnepenthes.github.io/2020/10/14/wanna-write-a-new-post/</id>
-    <published>2020-10-14T06:58:35.000Z</published>
-    <updated>2020-10-14T06:59:20.097Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;直接在外面进行一个BASH，就可以在里面方便地进行一个书写，非常舒服地体验。&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="Inbox" scheme="https://lewisnepenthes.github.io/categories/Inbox/"/>
-    
-    
-    <category term="test" scheme="https://lewisnepenthes.github.io/tags/test/"/>
-    
-  </entry>
   
   <entry>
     <title>为了Obsidian2Anki通了个宵</title>
@@ -178,7 +152,7 @@ summary:</summary>
     <link href="https://lewisnepenthes.github.io/2020/10/12/yong-qiang-li-yan-du-shu-wan-wei-gang/"/>
     <id>https://lewisnepenthes.github.io/2020/10/12/yong-qiang-li-yan-du-shu-wan-wei-gang/</id>
     <published>2020-10-11T16:42:51.000Z</published>
-    <updated>2020-10-14T07:37:07.891Z</updated>
+    <updated>2020-10-14T07:46:14.657Z</updated>
     
     
       
@@ -193,10 +167,10 @@ summary:</summary>
     
     
     
-    <category term="Tools" scheme="https://lewisnepenthes.github.io/categories/Tools/"/>
+    <category term="Reprint" scheme="https://lewisnepenthes.github.io/categories/Reprint/"/>
     
     
-    <category term="People" scheme="https://lewisnepenthes.github.io/tags/People/"/>
+    <category term="Reading" scheme="https://lewisnepenthes.github.io/tags/Reading/"/>
     
   </entry>
   
