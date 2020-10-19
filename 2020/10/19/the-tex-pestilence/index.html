@@ -1,0 +1,1097 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="The TeX Pestilence (Why TeX/LaTeX Sucks), Key">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>The TeX Pestilence (Why TeX/LaTeX Sucks) | null</title>
+    <link rel="icon" type="image/jpeg" href="/favvv.jpg">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="null" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/bizu.jpg" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span"></span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Home</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/bizu.jpg" class="logo-img circle responsive-img">
+        
+        <div class="logo-name"></div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Home
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">The TeX Pestilence (Why TeX/LaTeX Sucks)</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Reprint/" class="post-category">
+                                Reprint
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-10-19
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
+                    2020-10-19
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
+                    2.4k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
+                    15 Min
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>Read Count:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><a target="_blank" rel="noopener" href="http://xahlee.info/cmaci/notation/TeX_pestilence.html">The TeX Pestilence (Why TeX/LaTeX Sucks)</a></p>
+<h1 id="The-TeX-Pestilence-Why-TeX-LaTeX-Sucks"><a href="#The-TeX-Pestilence-Why-TeX-LaTeX-Sucks" class="headerlink" title="The TeX Pestilence (Why TeX/LaTeX Sucks)"></a>The TeX Pestilence (Why TeX/LaTeX Sucks)</h1><p>By Xah Lee. Date: 2004-08-30. Last updated: 2019-10-16.</p>
+<p>This page discuss why Donald Knuth’s TeX (and LaTeX) is a bad technology.</p>
+<h2 id="TeX-—-the-Grand-Daddy-of-Syntax-Soup-—-Worse-Than-C-sprintf"><a href="#TeX-—-the-Grand-Daddy-of-Syntax-Soup-—-Worse-Than-C-sprintf" class="headerlink" title="TeX — the Grand Daddy of Syntax Soup — Worse Than C sprintf"></a>TeX — the Grand Daddy of Syntax Soup — Worse Than C sprintf</h2><p>To create these formulas:</p>
+<p><img src="http://xahlee.info/math/i/math_formula_MathJax.png" alt="math formula MathJax"></p>
+<p>Math formulas rendered in TeX</p>
+<p>Here’s what you have to write:</p>
+<pre><code>\\sum\_{n=1}^k \\frac{1}{n} ≻ \\int\_1^{k+1} \\frac{1}{x} dx = \\ln(k+1)
+
+\\sum\_{n = 0}^\\infty \\frac{(-1)^{n}}{2n+1} = 1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\cdots = \\frac{\\pi}{4}
+
+\\int\_a^b \\! f(x) dx = F(b) - F(a)
+
+f'(a)=\\lim\_{h\\to 0}\\frac{f(a+h)-f(a)}{h}
+
+\\overline{(z/w)} = \\bar{z}/\\bar{w}
+
+\\textstyle r=|z|=\\sqrt{x^2+y^2}
+
+\\begin{bmatrix} 1 &amp; 2\\\\ 3 &amp; 4\\\\ \\end{bmatrix} \\begin{bmatrix} 0 &amp; 1\\\\ 0 &amp; 0\\\\ \\end{bmatrix}= \\begin{bmatrix} 0 &amp; 1\\\\ 0 &amp; 3\\\\ \\end{bmatrix}</code></pre>
+<p>here’s a alternative syntax (from Mathematica), that preserves semantic structure and is simple and readable:</p>
+<pre><code>Sum\[1/n, {n,1,k}\] ≻ Integrate\[ 1/x ,{1,k+1}\] = Log\[k + 1\]
+
+Sum\[ (-1)^n/(2\*n + 1), {n, 0, ∞}\] = 1 - 1/3 + 1/5 + 1/7 + … = π/4
+
+Integrate\[ f\[x\] ,{x,a,b}\] = F\[b\] - F\[a\]
+
+f'\[a\] = Limit\[ (f\[a+h\]-f\[a\])/h,{h,0}\]
+
+Overbar\[z/w\] = Overbar\[z\]/Overbar\[w\]
+
+r = Abs\[z\] = Sqrt\[x^2+y^2\]
+
+{{1,2},{3,4}} \* {{0,1},{0,0}} = {{0,1},{0,3}}</code></pre>
+<h3 id="The-Structure-in-Math-Expressions"><a href="#The-Structure-in-Math-Expressions" class="headerlink" title="The Structure in Math Expressions"></a>The Structure in Math Expressions</h3><p>Math notation does not always have well-defined structure or meaning. However, it is important to consider the preservation of semantic structure in building a math notation representation language. For example, if we have</p>
+<pre><code>x^2+Sqrt\[x\]</code></pre>
+<p>the system should know that it is a operation applied to two things, each of which is some particular operation on symbols x. Similarly for the traditional notation of matrix, subscripts, sets, absolutes/norms, summation, derivative, integral, … etc.</p>
+<p>Most math expressions form a tree structure, known as abstract syntax tree in computer science. For example:</p>
+<pre><code>+
+ ^
+  x
+  2
+ sqrt
+  x</code></pre>
+<p>For any new math notation that does not have a clear structure (say some bunch of arrows towards symbols in some homological algebra), we can for example have a tag that markup the part of expression to indicate that it has no meaning and is for displaying 2D-typeset purposes only.</p>
+<p>In TeX, every math expression is just a sequence of structurally meaningless but micro-position-aware symbols.</p>
+<h2 id="Problems-of-TeX"><a href="#Problems-of-TeX" class="headerlink" title="Problems of TeX"></a>Problems of TeX</h2><p>TeX is detrimental because it harbors ignorance of the structural content embodied in most math notations in most math fields. What TeX does is typesetting, as opposed to math expression encoding. In other words, what TeX does is pretty-printing.</p>
+<p>The language is designed in a way that any structural info in a math expression are botched. As such, TeX, even though it is a full-fledged computer language capable of great programing, but it understands zilch of math expressions, it encodes zilch math expressions. Now that is a egregious error of a computer language purporting to express mathematics. And more so because it is a product of a mathematician who should’ve known better.</p>
+<p>LaTeX mended TeX by turning a pretty printing system into a structured documentation system. However, since TeX at its core is a pretty picture system, no amount fix can correct that other than complete discard. LaTeX fixed nothing about TeX’s botching of the structural info in math notations.</p>
+<p>As a testament of TeX’s shortcomings, TeX botches structural info in math expressions so bad that no program whatsoever short of Human-Level Artificial Intelligence will be be able to convert from TeX into another system of math notation.</p>
+<h2 id="TeX’s-Damage-to-Society"><a href="#TeX’s-Damage-to-Society" class="headerlink" title="TeX’s Damage to Society"></a>TeX’s Damage to Society</h2><p>TeX has done significant damage to the math community, by getting people to focus on pretty printing, which is what typesetting is mainly about. And the key to see this is that TeX has absolutely no concept of the semantic content or structure of math expressions.</p>
+<p>• TeX is a system for typesetting. Typesetting is primarily concerned with esthetics. As a art form, typesetting is insignificant. Typesetting, taken by itself other than reading facilitation, is in general of little serious utility.</p>
+<p>• TeX as a knowledge representation system used by scientists, seduced vast number of scientists into the rather wasteful activity of appearance doodling.</p>
+<p>• TeX, because it is a pure typesetting system and is not aware of any structural info embedded in math notations, it destroys this information whenever math is written in TeX. Even notational systems using plain text such as in Mathematica since 1990, or other computer algebra language, maintains structural info. (by necessity, because they have to actually work in some sense as a math formalism system)</p>
+<p>• Because TeX is free, it halts progress of competing systems and ideas. If TeX had not been invented and given out free, systems that preserve structure (For example, MathML, Mathematica) for the purposes of displaying 2-dimensional math notations, would have been invented earlier or wide spread.</p>
+<p>Free software acts as a virus. Free systems have the potency to wipe out any other protocol or design, including any superior ones (unless they are also free). A example is the various Unix systems and protocols has done huge irreversible damage to society.</p>
+<p>• As a computer language, the design of TeX’s syntax and semantics is arguably bad. The syntax is rather inconsistent, complex, imperative style (as opposed to declarative syntax), and in general the language is difficult to use to control the typesetting or documentation structure. It spread bad ideas or experiences to non-programers, such as mathematicians.</p>
+<p>Any computer language, however bad is its quality, will attract users once exposed to it, and may become addictive, and its users will feel empowered. It’s like jigsaw puzzle in comparison to Rubic Cube. In the context of puzzles, the Jigsaw is a complete waste of time as a game with respect to mathematical values, it however ferment people into fans. A example of this is in computing, is unix shell, and Perl.</p>
+<p>The above ideas is not new, however, it is hardly ever heard. All one hear every day everywhere are chants of the greatness TeX by ignorant computing geeks and mathematicians. The former know coding, the latter knows abstract specialization, both of which in general are ignorant of the history, psychology, and linguistic theories of knowledge presentation and symbolic system. This must be stopped.</p>
+<h2 id="Downfall-of-TeX"><a href="#Downfall-of-TeX" class="headerlink" title="Downfall of TeX"></a>Downfall of TeX</h2><p>I do think TeX’s popularity is waning because of its inappropriateness. They being:</p>
+<ul>
+<li>Not based on Graphical User Interface.</li>
+<li>Not interactive. (its usage requires “compile” cycles)</li>
+<li>Inconsistent syntax.</li>
+<li>Bad language semantics. (it is difficult to use TeX as a embedded language in typeset programing or document structure programing. (compare: Microsoft Word with Visual Basic, Emacs with elisp))</li>
+<li>A system based on appearance, not on math expression structure.</li>
+</ul>
+<p>As of today, structural and semantic info are receiving greater and greater awareness as opposed to formatting or displaying aspects. Witness today’s thoughts of <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web</a>, and a slew of technologies oriented with maintaining structure such as SGML/HTML/XML/<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/MathML">MathML</a>, DOM, RSS, Mathematica. Even CSS, is structural based that removed formatting issues from HTML, and is today moving to XLS for XML.</p>
+<p>In part, TeX isn’t to blame for its own fall, because it is set out to do typesetting and it does that well. The thing is, the entire typesetting business itself is largely a waste of humanity’s time. As communication tech progresses, typesetting as it is understood (i.e. concerns about em/en-space, ligatures, typefaces) is going to be extinct. [see <a target="_blank" rel="noopener" href="http://wordyenglish.com/musing/typography.html">The Moronicities of Typography</a>]</p>
+<h3 id="TeX-and-Microsoft-Equation-Editor-Considered-Equal"><a href="#TeX-and-Microsoft-Equation-Editor-Considered-Equal" class="headerlink" title="TeX and Microsoft Equation Editor Considered Equal"></a>TeX and Microsoft Equation Editor Considered Equal</h3><p>TeX, being a pretty-printing system, can be considered in the same class as <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Equation_Editor">Microsoft Word Equation Editor</a>. The difference lies only in their mode of operation. Specifically, TeX is by compile and batch operation like a typical computer language, and the Equation Editor is by using a mouse to click menus and buttons with graphical user interface. The heart of both as far as math notation is concerned, is doodling of a em space or en dash. All math notation’s semantic structure are lost.</p>
+<h3 id="LaTeX-vs-Microsoft-Word-for-Structured-Document"><a href="#LaTeX-vs-Microsoft-Word-for-Structured-Document" class="headerlink" title="LaTeX vs Microsoft Word for Structured Document"></a>LaTeX vs Microsoft Word for Structured Document</h3><p>Consider LaTeX as a structured documentation system. Microsoft Word’s Outline feature does better, plus it has background spell checking, tabs setting, embedded version control, voice annotations, and so on. (provided the person know how to properly use MS Word)</p>
+<h3 id="TeX’s-Place-in-the-World-of-Typesetting"><a href="#TeX’s-Place-in-the-World-of-Typesetting" class="headerlink" title="TeX’s Place in the World of Typesetting"></a>TeX’s Place in the World of Typesetting</h3><p>In order to evaluate TeX asides from its massive brainwashing of the Math community, the question we have to ask is to what degree TeX has made a impact in strictly the typesetting and publishing community. I agree TeX as a typesetting system has made a major impact in this community, however, as a technology, it is far from taking a leading role. Consider <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/QuarkXpress">QuarkXpress</a>, <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/FrameMaker">FrameMaker</a>, <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/PDF">PDF</a>, all are in similar market and are not free. (PDF document creating software made by Adobe is not free)</p>
+<p>Outside of niche math academic journals, TeX is not used by publishers.</p>
+<h2 id="Frequently-Asked-Questions"><a href="#Frequently-Asked-Questions" class="headerlink" title="Frequently Asked Questions"></a>Frequently Asked Questions</h2><h3 id="Know-More-About-This"><a href="#Know-More-About-This" class="headerlink" title="Know More About This"></a>Know More About This</h3><blockquote>
+<p>So you know more about this than all of us professional mathematicians who have been working with it all our lives?</p>
+</blockquote>
+<p>Successful and professional writers will in general not know much about linguistics or <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/writing_system">writing systems</a>. Similarly, musicians typically are ignorant of the history, design, of <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Musical_notation">musical notation systems</a> .</p>
+<p>Likewise, professional mathematicians, although they have used math notation all their lives, few have studied or thought about the history of math notation, writing systems, symbolic logic systems, syntax of computer algebra systems or theorem proving systems, linguistics of computer languages, cognizance sciences, psychology of perception, all are related to math notation system.</p>
+<h3 id="TEX-TEX-TEX"><a href="#TEX-TEX-TEX" class="headerlink" title="TEX, TEX, TEX"></a>TEX, TEX, TEX</h3><blockquote>
+<p>In the opinion of just about everyone who knows about such things, TeX is the best markup language where precise and beautiful typography is essential AND for typesetting mathematical formulas and equations. The fact is that ALL professional mathematicians learn TeX as graduate students and write their thesis in TeX and from then on are so hooked on it that they not only write their mathematics in TeX but also usually their letters and other documents. Something written in MS Word just looks ugly by comparison, particularly if it contains formulas using the brain-dead MS equation editor. BTW, just about all physicists use TeX for the same reason.</p>
+</blockquote>
+<p>I’m very well acquainted with the history TeX and its position in society, how scientists receives it, and how ubiquitous and its position as a standard. I’ve read extensively about TeX a decade ago (~1993 to 1998). I’m very well aware how it compares to something like MS Word or other related WYSIWYG equation editors.</p>
+<p>On the whole, my thesis is that TeX, although a extremely successful and well done tool that has satisfied a niche, but it may in fact be a disservice in humanity in that it massively mislead people in the wrong direction. If TeX did not exist, then typesetting will remain in the realm of professional typesetting and printing community, while mathematicians and scientists, will not have wearied their energy into typesetting, but instead put their focus and energy in coming up with a syntax that makes mathematics readable as well as meaningful, based on immense modern knowledge of symbolic logic, computer algebra, and linguistics of computer languages.</p>
+<p>Consider typesetting for a moment. What is it? It is no more than pretty-printing. It has some element that facilitates reading, but only a bit. The bulk of it is meticulousness about appearances. Typical typesetting concerns are things like en-dash, em-dash, ligatures, small-caps, typeface design, serif, sans-serif, micro positions, kerning … etc. Typesetting is a cultural development. Even if we suppose that the esthetics in Western typesetting is universal, its esthetics values in the context of artistic endeavors is dismal. (For example, contrast it with calligraphy, painting, sculpture etc.)</p>
+<p>By introducing TeX the way it is designed, it encroaches the symbolic language of mathematics with pretty-printing, and devalued the system of symbolic communication used by mathematicians, and subtly derailed what mathematicians do best.</p>
+<p>If TeX as it is designed has not been invented, then today we might already have a alternative system such as the proprietary Mathematica, or MathML (very much influenced by Wolfram Research Inc.), which has taken consideration that the symbolic language of mathematics is more than just pretty glyphs arranged in a special way, in that it has a not-well-understood but undeniable structure and relation to mathematics, to such a degree it can influence where mathematics is going, and a design with these thoughts in mind helps us actually advance computational mathematics.</p>
+<h2 id="Alternatives"><a href="#Alternatives" class="headerlink" title="Alternatives"></a>Alternatives</h2><p>In recent years, some software have taken steps to address TeX’s shortcomings. Examples:</p>
+<p>• <strong>Content Oriented LaTeX</strong>. A LaTeX package that tries to retain the math expression’s structure. At <a target="_blank" rel="noopener" href="http://www.ctan.org/pkg/cool">http://www.ctan.org/pkg/cool</a> or <a target="_blank" rel="noopener" href="http://tug.ctan.org/tex-archive/macros/latex/contrib/cool/">http://tug.ctan.org/tex-archive/macros/latex/contrib/cool/</a>. Demo <a target="_blank" rel="noopener" href="http://xahlee.info/cmaci/notation/Content_LaTeX_Package_Demo.pdf">Content_LaTeX_Package_Demo.pdf</a></p>
+<p>• <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/XeTeX">XeTeX</a>. A TeX engine that supports Unicode. That is, Greek letters or math symbols can be entered directly without using markup.</p>
+<p>• <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/LyX">LyX</a> A word-processor-like front-end to LaTeX, designed for ease of use.</p>
+<p>• <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/LuaTeX">LuaTeX</a></p>
+<p>Here’s others that’s not based on TeX:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Lout_(software)">Lout (software)</a>. A batch document formatter. Generates output to PDF. Based on functional language instead of macros. Not dependent on TeX.</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/GNU_TeXmacs">TeXmacs</a> (note: this is not emacs, nor based on TeX)</li>
+<li>[Unicode Nearly Plain-Text Encoding of Mathematics 2010-03-10 By Murray Sargent Iii. At <a target="_blank" rel="noopener" href="http://unicode.org/notes/tn28/UTN28-PlainTextMath-v3.pdf">http://unicode.org/notes/tn28/UTN28-PlainTextMath-v3.pdf</a> , accessed on 2016-01-18 ]</li>
+</ul>
+<p>See also: <a target="_blank" rel="noopener" href="http://xahlee.info/math/display_math_on_web.html">Tools to Display Math on Web</a> .</p>
+<h2 id="Addendum"><a href="#Addendum" class="headerlink" title="Addendum"></a>Addendum</h2><p>See also: <a target="_blank" rel="noopener" href="http://xahlee.info/cmaci/notation/mathematical_notation_past_and_future.html">Mathematical Notation: Past and Future</a></p>
+<p>2013-06-23 thanks to [Fabrice Popineau <a target="_blank" rel="noopener" href="https://plus.google.com/108659671652610976578/posts/]">https://plus.google.com/108659671652610976578/posts\]</a></p>
+<p>[Google Plus discussion 2013-06-23 <a target="_blank" rel="noopener" href="https://plus.google.com/112757647855302148298/posts/6QmrKzL8KE6/]">https://plus.google.com/112757647855302148298/posts/6QmrKzL8KE6\]</a></p>
+<p>2019-10-16</p>
+<p><img src="http://xahlee.info/cmaci/notation/i/LaTex_Markus_Knauff_Jelica_2019-10-16_mhyn5.png" alt="LaTex Markus Knauff Jelica 2019-10-16 mhyn5"></p>
+<p>[An Efficiency Comparison of Document Preparation Systems Used in Academic Research and Development 2014-12-19 By Markus Knauff , Jelica Nejasmic. At <a target="_blank" rel="noopener" href="https://doi.org/10.1371/journal.pone.0115069">https://doi.org/10.1371/journal.pone.0115069</a> ]</p>
+<p>2019-03-26</p>
+<p>xah talk show 2019-03-25 Donald Knuth, TeX, Instruction Set Architecture, MathML, Mathematica etc.</p>
+<p>xah talk show highlight, why Donald Knuth’s TeX (and LaTeX) suck, at 1:08:20 <a target="_blank" rel="noopener" href="https://youtu.be/dyCyPhU6reY?t=4101">https://youtu.be/dyCyPhU6reY?t=4101</a></p>
+<p>If you have a question, put $5 at <a target="_blank" rel="noopener" href="https://www.patreon.com/xahlee">patreon</a> and message me.</p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">LewisNepenthes</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://lewisnepenthes.github.io/2020/10/19/the-tex-pestilence/">https://lewisnepenthes.github.io/2020/10/19/the-tex-pestilence/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">LewisNepenthes</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,wechat,weibo" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/2020/10/19/the-tex-pestilence/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="The TeX Pestilence (Why TeX/LaTeX Sucks)">
+                        
+                        <span class="card-title">The TeX Pestilence (Why TeX/LaTeX Sucks)</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            The TeX Pestilence (Why TeX/LaTeX Sucks)
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-19-Mon
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Reprint/" class="post-category">
+                                    Reprint
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/10/19/reprint/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.png" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-19-Mon
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Reprint/" class="post-category">
+                                    Reprint
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('5'),
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="2167349282"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">LewisNepenthes</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">28.7k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "10";
+                    var startDate = "6";
+                    var startHour = "21";
+                    var startMinute = "18";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/LewisNepenthes" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:lewisnepenthes@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
