@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Markdown写作时的图片大小问题</title>
+      <link href="2020/10/20/markdown-xie-zuo-shi-de-tu-pian-da-xiao-wen-ti/"/>
+      <url>2020/10/20/markdown-xie-zuo-shi-de-tu-pian-da-xiao-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Markdown写作时的图片大小问题"><a href="#Markdown写作时的图片大小问题" class="headerlink" title="Markdown写作时的图片大小问题"></a>Markdown写作时的图片大小问题</h1><p>2020-10-20_17-36-52</p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在md写作时，经常会遇到图片展示时过大的问题，那么改如何随心所欲地修改图片的大小呢？下面就探索的几个方法总结一下。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="全局修改"><a href="#全局修改" class="headerlink" title="全局修改"></a>全局修改</h3><h4 id="在css文档中使用zoom"><a href="#在css文档中使用zoom" class="headerlink" title="在css文档中使用zoom"></a>在css文档中使用zoom</h4><p>img { zoom: 50%; }</p><h4 id="视觉问题"><a href="#视觉问题" class="headerlink" title="视觉问题"></a>视觉问题</h4><p>由于不同编辑器设置不一样，就拿我用的typora来举例吧：<br>默认的主题最窄也有860px，减去留白也有800px，效果是这样的：<br>图片占了大部分画面，下面的内空都看不到了。 <img src="https://pic4.zhimg.com/50/v2-ddde6c1d9c1cd925696542bde3d0b345_hd.jpg?source=1940ef5c"> 调成600px后，就好多了： <img src="https://pic4.zhimg.com/50/v2-960319ee0b8bd1227fd47fadd98c8d1e_hd.jpg?source=1940ef5c"></p><h5 id="写法1"><a href="#写法1" class="headerlink" title="写法1"></a>写法1</h5><p>#write{<br>max-width: 660px; /* 原为860px; */ }</p><h5 id="写法2"><a href="#写法2" class="headerlink" title="写法2"></a>写法2</h5><p>img { max-width: 80%; }</p><h5 id="写法3"><a href="#写法3" class="headerlink" title="写法3"></a>写法3</h5><pre class=" language-{=html}"><code class="language-{=html}"><style>img{    width: 60%;    padding-left: 20%;}</style></code></pre><p>padding-left = (100% - width) / 2</p><h3 id="自动半全局修改"><a href="#自动半全局修改" class="headerlink" title="自动半全局修改"></a>自动半全局修改</h3><p>在图床链接后在线压缩</p><h4 id="imageView2"><a href="#imageView2" class="headerlink" title="imageView2"></a>imageView2</h4><p>Markdown 不支持 by design，可以直接用 html 或者 找一个支持参数的图床，比如七牛。 例子：原图<a href="http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg">http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg</a> 指定尺寸<a href="http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg?imageView/2/w/619/q/90">http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg?imageView/2/w/619/q/90</a></p><h4 id="imageMorgr2"><a href="#imageMorgr2" class="headerlink" title="imageMorgr2"></a>imageMorgr2</h4><p>使用七牛:下面是图片居中并以原尺寸一般的形式显示.</p><p>::: {align=”center”}<br><img src="url...x.png?imageMogr2/thumbnail/!50p" alt="轻量级交互"><br>:::</p><p>更多信息请看这里:高级处理（imageMogr2）</p><h3 id="局部修改"><a href="#局部修改" class="headerlink" title="局部修改"></a>局部修改</h3><h4 id="CSS-Inline-Attribute"><a href="#CSS-Inline-Attribute" class="headerlink" title="CSS Inline Attribute"></a>CSS Inline Attribute</h4><p><img src="url" alt="test image size">改写为<img src="url" alt="test image size">{:class=”img-responsive”} <img src="url" alt="test image size">{:height=”50%” width=”50%”} <img src="url" alt="test image size">{:height=”100px” width=”400px”} Kramdown的Inline Attribute，直接在图片后面加上对应的CSS样式即可</p><h4 id="w-number"><a href="#w-number" class="headerlink" title="-w number"></a>-w number</h4><p><img src="url" alt="图片描述"> → <img src="url" alt="图片描述-w150"> <img src="https://pic3.zhimg.com/v2-0a80d2f61233518a3719179a045c41b2_xl.jpg" alt="知乎头像-w70"> 修改后代码（加粗部分为新增代码，数字为缩放大小）：修改任意值即可改变图片尺寸。</p><h4 id="CSS-Attribute-Selector"><a href="#CSS-Attribute-Selector" class="headerlink" title="CSS Attribute Selector"></a>CSS Attribute Selector</h4><p>img: img[src*=”#width-full”] { width: 100%;} md: <img src="https://view.moezx.cc/images/2018/05/27/trump.jpg#width-full" alt="trump.jpg"> 间接为图片加上一个 class，该技能可叠加使用。如果喜欢，你当然可以在 stylesheet 里给每个尺寸写上一条。</p><h4 id="Space-法"><a href="#Space-法" class="headerlink" title="Space=法"></a>Space=法</h4><p><img src="./pic/pic1_50.png%20=100x20"> 注意 =前有个空格，可以只写宽度，Mou中支持</p><h4 id="Typora右键法"><a href="#Typora右键法" class="headerlink" title="Typora右键法"></a>Typora右键法</h4><p>右键Typora里的图片，选择img的zoom调整比例。 最好用的方法，随心所欲。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Inbox </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>The TeX Pestilence (Why TeX/LaTeX Sucks)</title>
       <link href="2020/10/19/reprint/the-tex-pestilence/"/>
       <url>2020/10/19/reprint/the-tex-pestilence/</url>

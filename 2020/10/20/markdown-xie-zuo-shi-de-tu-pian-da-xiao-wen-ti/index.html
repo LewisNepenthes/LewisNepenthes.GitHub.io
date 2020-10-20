@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="打字梳理思想和嘴巴梳理思想区别, Key">
+    <meta name="keywords" content="Markdown写作时的图片大小问题, Key">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>打字梳理思想和嘴巴梳理思想区别 | null</title>
+    <title>Markdown写作时的图片大小问题 | null</title>
     <link rel="icon" type="image/jpeg" href="/favvv.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -248,12 +248,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">打字梳理思想和嘴巴梳理思想区别</h1>
+                    <h1 class="description center-align post-title">Markdown写作时的图片大小问题</h1>
                 </div>
             </div>
         </div>
@@ -391,7 +391,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-10-16
+                    2020-10-20
                 </div>
                 
 
@@ -405,7 +405,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    399
+                    483
                 </div>
                 
 
@@ -427,7 +427,29 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="打字梳理思想和嘴巴梳理思想区别"><a href="#打字梳理思想和嘴巴梳理思想区别" class="headerlink" title="打字梳理思想和嘴巴梳理思想区别"></a>打字梳理思想和嘴巴梳理思想区别</h1><p>键盘打字比较适合具象化地梳理自己的思想，和口述不一样的就是，我有文字留存，日后如果想要反思和反省的话，有东西可以回味，而说出来的话，就没东西可以回味了，毕竟你不会每一次自言自语的时候都录下来吧。而且就算你会录下来，说实话，音频的调取，尤其是想要调取某个特定的片段，特别麻烦，这你承认吧？比如你想要知道自己在某个话题方面的论述，你得跳到那个时间段，但是这真的不好掌握啊。而文字呢，就一目了然，你是如何表述的，用关键词一找，就瞬间找到了，非常方便。故用文字来梳理思想，虽然在当下梳理的时候，流畅程度不如用口述来梳理的好，但是基于它事后的方便调取性，总体而言还是优于口述的。而且啊，一旦你文字的打字速度上来以后，其实这里的差别会进一步缩小，当然还是赶不上啦，我想文字输出的话，最多150/min吧，而说话的速度能比较轻松的达到300/min。总而言之，如果你追求当下梳理的一个流畅度，那么你用口述，而如果你希望日后可以回顾，那么用文字来梳理当下的思想不失为一个非常好的方法。</p>
+                <h1 id="Markdown写作时的图片大小问题"><a href="#Markdown写作时的图片大小问题" class="headerlink" title="Markdown写作时的图片大小问题"></a>Markdown写作时的图片大小问题</h1><p>2020-10-20_17-36-52</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在md写作时，经常会遇到图片展示时过大的问题，那么改如何随心所欲地修改图片的大小呢？下面就探索的几个方法总结一下。</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="全局修改"><a href="#全局修改" class="headerlink" title="全局修改"></a>全局修改</h3><h4 id="在css文档中使用zoom"><a href="#在css文档中使用zoom" class="headerlink" title="在css文档中使用zoom"></a>在css文档中使用zoom</h4><p>img { zoom: 50%; }</p>
+<h4 id="视觉问题"><a href="#视觉问题" class="headerlink" title="视觉问题"></a>视觉问题</h4><p>由于不同编辑器设置不一样，就拿我用的typora来举例吧：<br>默认的主题最窄也有860px，减去留白也有800px，效果是这样的：<br>图片占了大部分画面，下面的内空都看不到了。 <img src="https://pic4.zhimg.com/50/v2-ddde6c1d9c1cd925696542bde3d0b345_hd.jpg?source=1940ef5c"> 调成600px后，就好多了： <img src="https://pic4.zhimg.com/50/v2-960319ee0b8bd1227fd47fadd98c8d1e_hd.jpg?source=1940ef5c"></p>
+<h5 id="写法1"><a href="#写法1" class="headerlink" title="写法1"></a>写法1</h5><p>#write{<br>max-width: 660px; /* 原为860px; */ }</p>
+<h5 id="写法2"><a href="#写法2" class="headerlink" title="写法2"></a>写法2</h5><p>img { max-width: 80%; }</p>
+<h5 id="写法3"><a href="#写法3" class="headerlink" title="写法3"></a>写法3</h5><pre class=" language-{=html}"><code class="language-{=html}"><style>
+img{
+    width: 60%;
+    padding-left: 20%;
+}
+</style></code></pre>
+<p>padding-left = (100% - width) / 2</p>
+<h3 id="自动半全局修改"><a href="#自动半全局修改" class="headerlink" title="自动半全局修改"></a>自动半全局修改</h3><p>在图床链接后在线压缩</p>
+<h4 id="imageView2"><a href="#imageView2" class="headerlink" title="imageView2"></a>imageView2</h4><p>Markdown 不支持 by design，可以直接用 html 或者 找一个支持参数的图床，比如七牛。 例子：原图<a target="_blank" rel="noopener" href="http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg">http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg</a> 指定尺寸<a target="_blank" rel="noopener" href="http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg?imageView/2/w/619/q/90">http://siwangxinyuan.qiniudn.com/jianshu-42-1280x800-%5BDesktopNexus.com%5D.jpg?imageView/2/w/619/q/90</a></p>
+<h4 id="imageMorgr2"><a href="#imageMorgr2" class="headerlink" title="imageMorgr2"></a>imageMorgr2</h4><p>使用七牛:下面是图片居中并以原尺寸一般的形式显示.</p>
+<p>::: {align=”center”}<br><img src="url...x.png?imageMogr2/thumbnail/!50p" alt="轻量级交互"><br>:::</p>
+<p>更多信息请看这里:高级处理（imageMogr2）</p>
+<h3 id="局部修改"><a href="#局部修改" class="headerlink" title="局部修改"></a>局部修改</h3><h4 id="CSS-Inline-Attribute"><a href="#CSS-Inline-Attribute" class="headerlink" title="CSS Inline Attribute"></a>CSS Inline Attribute</h4><p><img src="url" alt="test image size">改写为<img src="url" alt="test image size">{:class=”img-responsive”} <img src="url" alt="test image size">{:height=”50%” width=”50%”} <img src="url" alt="test image size">{:height=”100px” width=”400px”} Kramdown的Inline Attribute，直接在图片后面加上对应的CSS样式即可</p>
+<h4 id="w-number"><a href="#w-number" class="headerlink" title="-w number"></a>-w number</h4><p><img src="url" alt="图片描述"> → <img src="url" alt="图片描述-w150"> <img src="https://pic3.zhimg.com/v2-0a80d2f61233518a3719179a045c41b2_xl.jpg" alt="知乎头像-w70"> 修改后代码（加粗部分为新增代码，数字为缩放大小）：修改任意值即可改变图片尺寸。</p>
+<h4 id="CSS-Attribute-Selector"><a href="#CSS-Attribute-Selector" class="headerlink" title="CSS Attribute Selector"></a>CSS Attribute Selector</h4><p>img: img[src*=”#width-full”] { width: 100%;} md: <img src="https://view.moezx.cc/images/2018/05/27/trump.jpg#width-full" alt="trump.jpg"> 间接为图片加上一个 class，该技能可叠加使用。如果喜欢，你当然可以在 stylesheet 里给每个尺寸写上一条。</p>
+<h4 id="Space-法"><a href="#Space-法" class="headerlink" title="Space=法"></a>Space=法</h4><p><img src="./pic/pic1_50.png%20=100x20"> 注意 =前有个空格，可以只写宽度，Mou中支持</p>
+<h4 id="Typora右键法"><a href="#Typora右键法" class="headerlink" title="Typora右键法"></a>Typora右键法</h4><p>右键Typora里的图片，选择img的zoom调整比例。 最好用的方法，随心所欲。</p>
 
             </div>
             <hr/>
@@ -453,7 +475,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lewisnepenthes.github.io/2020/10/16/da-zi-shu-li-si-xiang-he-zui-ba-shu-li-si-xiang-qu-bie/">https://lewisnepenthes.github.io/2020/10/16/da-zi-shu-li-si-xiang-he-zui-ba-shu-li-si-xiang-qu-bie/</a>
+                    <a href="https://lewisnepenthes.github.io/2020/10/20/markdown-xie-zuo-shi-de-tu-pian-da-xiao-wen-ti/">https://lewisnepenthes.github.io/2020/10/20/markdown-xie-zuo-shi-de-tu-pian-da-xiao-wen-ti/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -530,29 +552,30 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2020/10/16/gao-qing-shang-ji-gao-zi-wo-qing-xu-guan-li-neng-li/">
+                <a href="/2020/10/20/markdown-xie-zuo-shi-de-tu-pian-da-xiao-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="高情商即高自我情绪管理能力">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Markdown写作时的图片大小问题">
                         
-                        <span class="card-title">高情商即高自我情绪管理能力</span>
+                        <span class="card-title">Markdown写作时的图片大小问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            在md写作时，经常会遇到图片展示时过大的问题，那么改如何随心所欲地修改图片的大小呢？下面就探索的几个方法总结一下。
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-16-Fri
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-20-Tue
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -565,6 +588,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -575,31 +599,31 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/10/16/edit/shi-jian-gong-ju/">
+                <a href="/2020/10/19/reprint/the-tex-pestilence/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="时间工具">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="The TeX Pestilence (Why TeX/LaTeX Sucks)">
                         
-                        <span class="card-title">时间工具</span>
+                        <span class="card-title">The TeX Pestilence (Why TeX/LaTeX Sucks)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            The TeX Pestilence (Why TeX/LaTeX Sucks)
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-16-Fri
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-19-Mon
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Inbox/" class="post-category">
-                                    Inbox
+                            <a href="/categories/Reprint/" class="post-category">
+                                    Reprint
                                 </a>
                             
                             
